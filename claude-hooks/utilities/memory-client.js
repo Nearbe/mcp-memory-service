@@ -62,7 +62,7 @@ class MemoryClient {
                     throw error;
                 }
                 // Continue to try next protocol
-                continue;
+
             }
         }
 

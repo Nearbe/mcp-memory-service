@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "memory-service": {
+      "command": "/Users/nearbe/repositories/Chat/ai/mcp/memory-service/.venv/bin/python",
+      "args": [
+        "-m",
+        "mcp_memory_service.server"
+      ],
+      "env": {
+        "MCP_MEMORY_STORAGE_BACKEND": "sqlite_vec"
+      }
+    }
+  }
+}

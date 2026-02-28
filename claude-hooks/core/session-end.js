@@ -570,7 +570,7 @@ async function parseTranscript(transcriptPath) {
                 }
             } catch (parseError) {
                 // Skip malformed lines
-                continue;
+
             }
         }
 
