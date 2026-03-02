@@ -27,7 +27,7 @@ if [ ! -f "$SCRIPT_DIR/.env" ]; then
     cat > "$SCRIPT_DIR/.env" << 'EOF'
 MCP_MEMORY_STORAGE_BACKEND=sqlite_vec
 MCP_HTTP_ENABLED=true
-MCP_HTTP_PORT=8000
+MCP_HTTP_PORT=8002
 MCP_ALLOW_ANONYMOUS_ACCESS=true
 EOF
     echo "✅ Created .env file with default settings"
@@ -35,9 +35,9 @@ fi
 
 # Start server
 echo ""
-echo "🌐 Starting MCP Memory Service on port 8000..."
-echo "💻 Dashboard: http://localhost:8000/"
-echo "📚 API Docs: http://localhost:8000/api/docs"
+echo "🌐 Starting MCP Memory Service on port 8002..."
+echo "💻 Dashboard: http://localhost:8002/"
+echo "📚 API Docs: http://localhost:8002/api/docs"
 echo ""
 echo "Press Ctrl+C to stop the server"
 echo ""
